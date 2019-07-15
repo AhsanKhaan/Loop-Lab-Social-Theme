@@ -39,3 +39,6 @@ body{
       padding:5px;
       border-radius:5px;
   }
+  #home-section .card-form{
+      opacity:0.8
+  }
