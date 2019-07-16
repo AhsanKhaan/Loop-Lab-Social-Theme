@@ -42,3 +42,9 @@ body{
   #home-section .card-form{
       opacity:0.8
   }
+  #explore-section .fas{
+      background:#333;
+      color:#fffdfd;
+      border-radius: 4px;
+      padding:5px;
+  }
