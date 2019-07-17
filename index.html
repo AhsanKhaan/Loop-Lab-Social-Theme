@@ -309,15 +309,75 @@
                 reiciendis, voluptate at alias laborum odit aliquid tempore
                 perspiciatis repudiandae hic?
               </div>
-
             </div>
           </div>
           <div class="col-md-6 order-1">
-            <img src="./img/share-section1.jpg" alt="" class="img-fluid rounded-circle">
+            <img
+              src="./img/share-section1.jpg"
+              alt=""
+              class="img-fluid rounded-circle"
+            />
           </div>
         </div>
       </div>
     </section>
+    <!-- Footer  -->
+    <footer class="text-center py-4 text-light bg-dark">
+      <div class="container ">
+        <div class="row">
+          <div class="col ">
+            <h4>LoopLAB</h4>
+            <p>Copyright&copy;2019</p>
+            <button
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#footermodal"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Create Modal  -->
+    <div
+      class="modal fade text-dark"
+      id="footermodal"
+      style="display: none;"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-md ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact Us</h5>
+            <button class="close" data-dismiss="modal">
+              <span>
+                &times;
+              </span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="post">
+              <div class="form-group">
+                <label for="name" class="col-sm-2 label-control">Name</label>
+                <input type="text" class="col-sm-10 form-control mr-auto" id="name" />
+              </div>
+              <div class="form-group">
+                <label for="email" class="col-sm-2 label-control">Email</label>
+                <input type="email" id="email" class="col-sm-10 form-control d-block" />
+              </div>
+              <div class="form-group">
+                <label for="msg" class="col-sm-2 label-control">Message</label>
+                <input type="textarea" id="msg" class="col-sm-10 form-control d-block" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <input type="submit" class="btn btn-primary btn-block" />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- link for jQuery -->
     <script src="css/bootstrap/jquery.js"></script>
